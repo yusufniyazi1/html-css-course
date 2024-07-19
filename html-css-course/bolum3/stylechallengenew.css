@@ -1,0 +1,48 @@
+* {
+  font-family: sans-serif;
+}
+.image-product {
+  width: 200px;
+  height: 200px;
+}
+.price {
+  font-weight: bold;
+}
+.product-details {
+  font-weight: bold;
+}
+article {
+  border: 5px solid rgb(0, 0, 0);
+  margin: 5px;
+}
+header h1 {
+  background-color: gainsboro;
+  text-align: center;
+  text-transform: uppercase;
+}
+.price {
+  font-weight: bold;
+  font-size: 20px;
+}
+.ship {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.item-info {
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.inforamtion-link {
+  color: black;
+}
+.inforamtion-link:hover {
+  text-decoration: none;
+}
+.add-button {
+  color: white;
+  background-color: black;
+  border: none;
+}
+.add-button:hover {
+  color: black;
+  background-color: rgb(255, 255, 255);
+}

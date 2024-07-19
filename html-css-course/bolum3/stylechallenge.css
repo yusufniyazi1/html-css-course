@@ -1,0 +1,107 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+article {
+  border: 5px solid black;
+  width: 825px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+}
+#caption {
+  text-align: center;
+  background-color: gainsboro;
+  text-transform: uppercase;
+  padding: 15px;
+}
+#price {
+  font-size: 24px;
+}
+#inforamtion-link:link,
+#inforamtion-link:visited {
+  color: black;
+}
+#inforamtion-link:hover,
+#inforamtion-link:active {
+  text-decoration: none;
+}
+#details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+#details-list {
+  list-style: square;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.details-list-item {
+  margin-bottom: 10px;
+}
+#add-button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  width: 100%;
+  padding: 15px;
+  border-top: 5px solid black;
+}
+#add-button:hover {
+  background-color: white;
+  color: black;
+}
+#ship {
+  color: gray;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/*
+h1 {
+  position: relative;
+}
+h1::after {
+  content: "SALE";
+  background-color: red;
+  display: inline-block;
+  padding: 5px 10px;
+  color: white;
+  font-size: 16px;
+  top: -15px;
+  left: -25px;
+  position: absolute;
+  letter-spacing: 1px;
+}
+*/
+.color-picker {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.color-picker div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.sale {
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 7px 15px;
+  display: inline-block;
+  letter-spacing: 1px;
+  position: absolute;
+  top: -15px;
+  left: -25px;
+}
