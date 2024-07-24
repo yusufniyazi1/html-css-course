@@ -68,3 +68,28 @@ header h1 {
   margin: 10px;
   cursor: pointer;
 }
+h1 {
+  position: relative;
+}
+h1::after {
+  padding: 10px;
+  content: "SALE";
+  background-color: red;
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  left: -25px;
+  top: -15px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.color-picker {
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.color-picker div {
+  display: inline-block;
+  margin-right: 10px;
+}
