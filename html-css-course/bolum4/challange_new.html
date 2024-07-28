@@ -7,36 +7,47 @@
     <title>Shopping Card</title>
   </head>
   <body>
-    <div class="container">
-      <article>
-        <header>
-          <h1>Converse Chuck Taylor Star Low Top</h1>
-        </header>
-        <img class="image-product" src="img\challenges.jpg" alt="img" />
-        <p class="price">$65.00</p>
-        <p class="ship">Free Shpping</p>
-        <p class="item-info">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam debitis
+    <article class="product">
+      <h2 class="product-title">Converse Chuck Taylor All Star Low Top</h2>
+      <div class="container clearfix">
+      <img
+        src="img\challenges.jpg"
+        alt="Chuck Taylor All Star Shoe"
+        height="250"
+        width="250"
+           class="product-img"
+      />
+      
+      <div class="product-info">
+          <p class="price"><strong>$65.00</strong></p>
+          <p class="shipping">Free shipping</p>
+      <p class="sale">Sale</p>
+      
+        <p class="product-description">
+          Ready to dress up or down, these classic canvas Chucks are an everyday
+          wardrobe staple.
         </p>
-        <a class="inforamtion-link" href="#">More İnformation &#8594;</a>
-        <div class="color-picker">
-          <div style="background-color: black; width: 20px; height: 20px"></div>
-          <div style="background-color: blue; width: 20px; height: 20px"></div>
-          <div style="background-color: red; width: 20px; height: 20px"></div>
-          <div
-            style="background-color: orange; width: 20px; height: 20px"
-          ></div>
-          <div style="background-color: green; width: 20px; height: 20px"></div>
-          <div style="background-color: brown; width: 20px; height: 20px"></div>
-        </div>
-        <p class="product-details">Product Details</p>
+        <a href="https://converse.com" target="_blank" class="more-info">More information &rarr;</a>
+      
+      <div class="colors">
+        <div class="color"></div>
+        <div class="color color-blue"></div>
+        <div class="color color-red"></div>
+        <div class="color color-yellow"></div>
+        <div class="color color-green"></div>
+        <div class="color color-brown"></div>
+      </div>
+      </div>
+       
+      <div class="product-details">
+        <h3 class="details-title">Product details</h3>
         <ul class="details-list">
-          <li class="details-list-item">Best</li>
-          <li class="details-list-item">Good</li>
-          <li class="details-list-item">Better</li>
+          <li>Lightweight, durable canvas sneaker</li>
+          <li>Lightly padded footbed for added comfort</li>
+          <li>Iconic Chuck Taylor ankle patch.</li>
         </ul>
-        <button class="add-button">ADD TO CART</button>
-      </article>
-    </div>
-  </body>
+      </div>
+      </div>
+      <button class="add-cart">Add to cart</button>
+    </article>
 </html>
