@@ -36,7 +36,7 @@
         /* STARTER */
         font-family: sans-serif;
         background-color: #ddd;
-        font-size: 40px;
+        font-size: 32px;
         margin: 40px;
 
         /* FLEXBOX */
@@ -44,11 +44,44 @@
         align-items: center;
         /* align-items: flex-end; üstr ortalar
         align-items: flex-start; alta prtalar
-        align-items: stretch; içerikleri kadar uzatır  */
-        justify-content: center;
-        /* justify-content: space-between; eşit aralık ara açılması
-        justify-content: space-around; 
+        align-items: stretch; içerikleri kadar uzatır
+        Yukarıdan aşağıya olan stil işleri için kullanılır
+        */
         
+        /* 
+        justify-content: center;
+        justify-content: space-between; eşit aralık ara açılması
+        justify-content: space-around; 
+        justify-content: flex-start; başdan başlar
+        Sağdan sola olan stil işleri için kullanılır
+        */
+        justify-content: flex-start;
+        gap: 30px;
+      }
+      .el{
+        /* margin-right: 30px;
+        // Default
+        flex-grow:0; flex basis kapalı konumdayken hepsini eşitler ve konteyneri tam olarak doldurur
+        flex-shrink:1; kısıtlama kladırıyor 0
+        flex-basis:auto; içindeki içerik kadar boşuk,boyut veriyor.
+        */
+        /* flex-basis:200px; */
+        flex-shrink: 0;
+        flex-grow: 1;
+      }
+      .el--1{
+        align-self: flex-start;
+        /* order: 2; */
+      }
+      .el--5{
+        align-self: stretch;
+        order: 1;
+        /* yapıştırıyor yani divin boyuna göre sarıyor */
+      }
+      .el--6{
+        order: -1;
+        /* en başa taşımak için -1
+        en sona taşımak için -1
         */
       }
     </style>
@@ -61,8 +94,8 @@
       <div class="el el--4">are</div>
       <div class="el el--5">amazing</div>
       <div class="el el--6">languages</div>
-      <div class="el el--7">to</div>
-      <div class="el el--8">learn</div>
+      <!-- <div class="el el--7">to</div>
+      <div class="el el--8">learn</div> -->
     </div>
   </body>
 </html>
